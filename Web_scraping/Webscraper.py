@@ -144,7 +144,7 @@ class LinkedInBot:
 
 
 if __name__ == "__main__":
-    email = "blake_kemp@yahoo.com"
-    password = "Bubba2018!"
+    email = "input email"
+    password = "input pass"
     bot = LinkedInBot()
     bot.run(email, password, "Software Engineer", "Remote")
