@@ -24,8 +24,8 @@ driver.maximize_window()
 link = driver.find_element(By.LINK_TEXT, 'Sign in').click()
 
 
-username = "blake_kemp@yahoo.com"
-password = "Bubba2018!"
+username = "input username"
+password = "input password"
 job_url = "https://www.linkedin.com/jobs/search/?f_WT=2&geoId=103644278&keywords=software%20engineer%20intern&location=United%20States"
 driver.find_element(By.ID, "username").send_keys(username)
 driver.find_element(By.ID, "password").send_keys(password)
